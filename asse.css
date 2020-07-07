@@ -1,6 +1,8 @@
 body {
   font-family: 'Sacramento', cursive;
-  text-align: center;
+  width: 500px;
+  margin-right: auto;
+  margin-left: auto;
   background: linear-gradient(90deg, #f113c1, #ffffff, #f113c1);
   color: #f113c1;
 }
