@@ -28,7 +28,7 @@ assessmentBtn.onclick = () => {
   // 診断結果表示エリア
   removeAllChildren(resultDiv)
   const h3 = document.createElement('h3');
-  h3.innerText = 'あなたのいいところ、つまり、、、';
+  h3.innerText = 'あなたのいいところは、その、、、';
   resultDiv.appendChild(h3);
 
   const h2 = document.createElement('h2');
