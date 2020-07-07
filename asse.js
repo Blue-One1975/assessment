@@ -19,6 +19,10 @@ assessmentBtn.onclick = () => {
   const userName = userNameIpt.value;
   if (userName.length === 0) {
     // 名前がからの時は処理を終了するガード句
+    removeAllChildren(resultDiv);
+    const he = document.createElement('h3');
+    he.innerText= '@@@名前を入力してください@@@';
+    resultDiv.appendChild(he);
     return;
   }
   // 診断結果表示エリア
