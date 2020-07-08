@@ -21,6 +21,20 @@ button {
 input {
   height: 30px;
 }
+input[type="text"]:focus,
+textarea:focus{
+  border-color: #2ff13f;
+  outline: 0;
+}
+
+input[type="text"]::placeholder{
+  transition: 300ms;
+}
+
+input[type="text"]:focus::placeholder{
+  transform: translateX(30px);
+  opacity: 0;
+}
 h3 {
   font-family: "Ravi Prakash", cursive;
   color:  #46ee4f;
